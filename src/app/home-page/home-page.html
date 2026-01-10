@@ -1,0 +1,146 @@
+<body>
+<section id="home" class="home-about">
+  <div class="home-content">
+    <h1 class="home-title">
+      Hi, I’m <span class="highlight">Subarajan Anbuselvan</span>
+      <span class="typing">| Java Full Stack Developer</span>
+    </h1>
+    <p class="home-subtitle">
+      Passionate <strong>Java Full Stack Developer</strong> with 1+ year of professional experience in designing and deploying enterprise-grade web applications. 
+      Skilled in <span class="tech">Java 8</span>, <span class="tech">Spring Boot</span>, <span class="tech">Angular</span>, and <span class="tech">Oracle SQL</span>.
+    </p>
+    <a href="#about" class="btn-primary">Learn More About Me</a>
+  </div>
+
+  <div class="home-image floating">
+    <img src="assets/9684196-bmw-s1000rr-2021-wallpaper.jpg" alt="Profile Image">
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- <section id="experience" class="experience fade-up">
+  <h2 class="section-title">Experience</h2>
+  <div class="exp-card glass fade-left">
+    <div class="exp-content">
+      <h3 class="role">Associate Software Engineer</h3>
+      <p class="duration">Aug 2024 – Present</p>
+      <p class="company">
+        <a href="https://www.prodian.net/" target="_blank">Prodian Infotech Private Limited</a> – 
+        <span class="location">Chennai, TN</span>
+      </p>
+      <ul class="exp-list">
+        <li>Full Stack Developer in the insurance sector, building enterprise-grade web apps.</li>
+        <li>Skilled in Java, Spring Boot, Angular, JSP, and Oracle SQL for end-to-end dev.</li>
+        <li>Delivered scalable applications with seamless backend–frontend integration.</li>
+      </ul>
+    </div>
+  </div>
+</section> -->
+<!-- Experience Section -->
+<section id="experience" class="experience-section fade-in">
+  <div class="experience-container floating">
+    <h2>Experience</h2>
+    <p>
+      <strong>Associate Software Engineer</strong> <br>
+      Prodian Infotech Pvt Ltd – <em>Aug 2024 – Present</em>
+    </p>
+    <p>
+      Working on <span class="highlight">enterprise applications</span> with a focus on 
+      <strong>Java, Spring Boot, Angular</strong> and backend APIs.
+    </p>
+    <p>
+      🚀 Building scalable solutions, debugging issues, and collaborating with cross-functional teams.
+    </p>
+  </div>
+</section>
+
+
+<div class="divider"></div>
+
+<!-- Education Section -->
+<section id="education" class="education-section fade-in">
+  <div class="education-container floating">
+    <h2>Education</h2>
+    <p>
+      <strong>B.E. Computer Science Engineering</strong> <br>
+      Saranathan College of Engineering, Trichy
+    </p>
+    <p>
+      CGPA: <span class="highlight">8.48 / 10</span> <br>
+      Relevant subjects: Data Structures, DBMS, AI, Networks, Software Engineering
+    </p>
+    <p>
+      📚 Hackathon Winner | 💡 Project Innovator
+    </p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section id="about" class="about-section fade-in">
+  <div class="about-container floating">
+    <h2>About Me</h2>
+    <p>
+      Hi 👋, I’m <strong>Subarajan A</strong>, a passionate 
+      <span class="highlight">Software Engineer</span> who loves building
+      modern, scalable, and user-friendly applications. 
+    </p>
+    <p>
+      I specialize in <strong>Angular, Java, Python, MERN Stack</strong> and 
+      enjoy working on projects that bring ideas to life through technology. 
+      My interests include AI, ML, IoT, and solving real-world problems with innovative solutions.
+    </p>
+    <p>
+      🚀 Hackathon Winner | 💡 Problem Solver | 👨‍💻 Lifelong Learner
+    </p>
+  </div>
+</section>
+<div class="divider"></div>
+
+<!-- <section id="education" class="education fade-up">
+  <h2 class="section-title">Education</h2>
+  <div class="edu-card glass fade-right">
+    <div class="edu-content">
+      <h3 class="degree">Bachelor of Computer Science</h3>
+      <p class="cgpa">CGPA: <span>8.5</span></p>
+      <p class="year">2020 - 2024</p>
+      <p class="college">
+        <a href="https://www.saranathan.ac.in/" target="_blank">
+          Saranathan College of Engineering, Trichy
+        </a>
+      </p>
+    </div>
+  </div>
+</section> -->
+<!-- Existing sections above... -->
+
+
+<section id="contact" class="contact-section fade-in">
+  <div class="contact-container floating">
+    <h2>Contact</h2>
+
+    <div class="contact-info">
+      <p><strong>📞 Phone:</strong> +91 91235 74044</p>
+      <p>
+        <strong>🔗 LinkedIn:</strong> 
+        <a href="https://www.linkedin.com/in/subarajan-anbuselvan" target="_blank">
+          linkedin.com/in/subarajan-anbuselvan
+        </a>
+      </p>
+      <p><strong>✉️ Email:</strong> asubarajan02@gmail.com</p>
+    </div>
+
+    <!-- Contact Form -->
+    <form [formGroup]="contactForm" (ngSubmit)="sendEmail()" class="contact-form">
+      <input type="text" formControlName="name" placeholder="Your Name" required>
+      <input type="email" formControlName="email" placeholder="Your Email" required>
+      <textarea formControlName="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn-primary" [disabled]="contactForm.invalid">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+
+</body>

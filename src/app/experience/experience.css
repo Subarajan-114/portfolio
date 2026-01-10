@@ -1,0 +1,90 @@
+.experience {
+  background: linear-gradient(90deg, #cce5ff, #66b2ff, #99ccff); /* matches your request */
+  padding: 60px 40px;
+  margin: 20px 0;
+  border-radius: 15px; 
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.2);
+  animation: fadeInUp 1.2s ease-in-out;
+  font-family: 'Poppins', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.85); /* semi-white */
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  animation: slideInRight 1.2s ease-in-out;
+}
+
+.exp-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}
+
+.exp-content {
+  color: #000;
+}
+
+.role {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.duration {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.company a {
+  font-size: 1.1rem;
+  color: #004080;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.company a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.location {
+  font-size: 1rem;
+  color: #444;
+}
+
+.exp-list {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.exp-list li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #111;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}

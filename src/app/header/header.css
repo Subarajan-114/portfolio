@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Dancing+Script:wght@600&display=swap');
+.main {
+  position: fixed;         
+  top: 0;                   
+  left: 0;
+  right: 0;
+  z-index: 1000;            
+  /* background: linear-gradient(90deg, #cce5ff, #66b2ff , #99ccff);
+   */
+    background: linear-gradient(135deg, #0f172a, #1e293b, #334155) !important;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.25);
+  padding: 2.5rem 2rem;
+  /* border-radius: 12px; */
+  animation: fadeInDown 1s ease-in-out;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  /* color: #004085 !important; */
+  color:#fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: slideInLeft 1s ease-in-out;
+}
+
+.nav-link {
+font-family: 'Poppins', sans-serif; 
+  font-size: 1.2rem;
+  font-weight: 5    00;  
+  margin: 0 12px;
+  transition: all 0.3s ease;
+    text-transform: uppercase;  
+  border-radius: 6px;
+  padding: 12px 18px; 
+   color:#fff !important;
+  animation: fadeIn 1.3s ease-in-out;
+}
+.nav-link:hover {
+   color: #004085 !important;
+  background: #3399ff;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.dropdown-menu {
+  background: #99ccff;
+  border-radius: 10px;
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+  animation: fadeIn 0.8s ease-in-out;
+}
+.dropdown-item {
+  color: #004085;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.dropdown-item:hover {
+  background: #004085;
+  color: #fff;
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
+}
+
+.title {
+  margin-right: 70px;
+  flex-grow: 1;
+  text-align: center;
+  color: #004085;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+  animation: fadeIn 2s ease-in-out;
+   color:#fff;
+}
+
+.des {
+      font-family: 'Poppins', sans-serif;
+       color:#fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: 0.9;
+  animation: fadeIn 2.3s ease-in-out;
+}
+
+.profile-div {
+  position: fixed;
+    z-index: 1000;  
+  top: 150px;             
+  right: 30px;        
+  transform: translateY(-50%); 
+  animation: dropIn 1.2s ease-out;   /* New animation */
+}
+
+.profile {
+  width: 200px; 
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgba(255,255,255,0.6);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.3);
+  transition: all 0.4s ease;
+}
+.profile:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0px 8px 18px rgba(51,153,255,0.6);
+  border-color: #66b2ff;
+}
+
+
+@keyframes dropIn {
+  from {
+    opacity: 0;
+    transform: translateY(-150px);  
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%);    
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-50px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(50px); }
+  to { opacity: 1; transform: translateX(0); }
+}

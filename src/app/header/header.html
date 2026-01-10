@@ -1,0 +1,51 @@
+<div>
+  <nav class="navbar navbar-expand-lg navbar-dark main">
+    <a class="navbar-brand logo" href="#">Portfolio</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" 
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mx-auto">
+  <li class="nav-item">
+    <a class="nav-link" (click)="scrollToSection('home')">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" (click)="scrollToSection('experience')">Experience</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Projects
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" (click)="scrollToSection('projects')">Smart Glass</a>
+      <a class="dropdown-item" (click)="scrollToSection('projects')">Schemes Bot</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" (click)="scrollToSection('projects')">More Projects</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" (click)="scrollToSection('education')">Education</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" (click)="scrollToSection('contact')">Contact</a>
+  </li>
+</ul>
+
+
+      <div class="title text-center">
+        <h1 class="name">Subarajan Anbuselvan</h1>
+        <h4 class="des">Software Engineer</h4>
+      </div>
+
+      
+    </div>
+  </nav>
+  <div class="profile-div">
+        <img class="profile" src="assets/9684196-bmw-s1000rr-2021-wallpaper.jpg" alt="Profile">
+  </div>
+</div>
