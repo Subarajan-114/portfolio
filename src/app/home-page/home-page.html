@@ -1,237 +1,347 @@
-<body>
-<section id="home" class="home-about">
-  <div class="home-content">
-    <h1 class="home-title">
-      Hi, I’m <span class="highlight">Subarajan Anbuselvan</span>
-      <span class="typing">| Java Full Stack Developer</span>
+<!-- SPACE BACKGROUND -->
+<div id="space-bg" class="space-background"></div>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <span class="hero-badge">👋 Available for opportunities</span>
+    <h1 class="hero-title">
+      Hi, I'm <span class="gradient-text">Subarajan</span><br>Anbuselvan
     </h1>
-    <p class="home-subtitle">
-      Passionate <strong>Java Full Stack Developer</strong> with 1+ year of professional experience in designing and deploying enterprise-grade web applications. 
-      Skilled in <span class="tech">Java 8</span>, <span class="tech">Spring Boot</span>, <span class="tech">Angular</span>, and <span class="tech">Oracle SQL</span>.
+    <p class="hero-role">Java Full Stack Developer</p>
+    <p class="hero-desc">
+      Passionate engineer with <strong>1+ year</strong> of professional experience building enterprise-grade web
+      applications with
+      <span class="pill">Java</span> <span class="pill">Spring Boot</span> <span class="pill">Angular</span> <span
+        class="pill">Oracle SQL</span>
     </p>
-    <a href="#about" class="btn-primary">Learn More About Me</a>
-  </div>
-
-  <div class="home-image floating">
-    <img src="\assets\images\image-1.png" alt="Profile Image">
-  </div>
-</section>
-
-<div class="divider"></div>
-
-<!-- <section id="experience" class="experience fade-up">
-  <h2 class="section-title">Experience</h2>
-  <div class="exp-card glass fade-left">
-    <div class="exp-content">
-      <h3 class="role">Associate Software Engineer</h3>
-      <p class="duration">Aug 2024 – Present</p>
-      <p class="company">
-        <a href="https://www.prodian.net/" target="_blank">Prodian Infotech Private Limited</a> – 
-        <span class="location">Chennai, TN</span>
-      </p>
-      <ul class="exp-list">
-        <li>Full Stack Developer in the insurance sector, building enterprise-grade web apps.</li>
-        <li>Skilled in Java, Spring Boot, Angular, JSP, and Oracle SQL for end-to-end dev.</li>
-        <li>Delivered scalable applications with seamless backend–frontend integration.</li>
-      </ul>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary" (click)="scrollToSection('contact')">Get In Touch</a>
+      <a href="#projects" class="btn-outline" (click)="scrollToSection('projects')">View Projects</a>
     </div>
   </div>
-</section> -->
-<!-- Experience Section -->
-<section id="experience" class="experience-section fade-in">
-  <div class="experience-container floating">
-    <h2>Experience</h2>
-    <p>
-      <strong>Associate Software Engineer</strong> <br>
-      Prodian Infotech Pvt Ltd – <em>Aug 2024 – Present</em>
-    </p>
-    <p>
-      Working on <span class="highlight">enterprise applications</span> with a focus on 
-      <strong>Java, Spring Boot, Angular</strong> and backend APIs.
-    </p>
-    <p>
-      🚀 Building scalable solutions, debugging issues, and collaborating with cross-functional teams.
-    </p>
+  <div class="hero-image-wrap">
+    <div class="hero-image-ring">
+      <img src="assets/images/subarajan-pro.png" alt="Subarajan Anbuselvan" class="hero-avatar">
+    </div>
   </div>
 </section>
 
-
-<div class="divider"></div>
-
-<!-- Education Section -->
-<section id="education" class="education-section fade-in">
-  <div class="education-container floating">
-    <h2>Education</h2>
-    <p>
-      <strong>B.E. Computer Science Engineering</strong> <br>
-      Saranathan College of Engineering, Trichy
-    </p>
-    <p>
-      CGPA: <span class="highlight">8.48 / 10</span> <br>
-      Relevant subjects: Data Structures, DBMS, AI, Networks, Software Engineering
-    </p>
-    <p>
-      📚 Hackathon Winner | 💡 Project Innovator
-    </p>
+<!-- SKILLS SECTION -->
+<section id="skills" class="section">
+  <div class="container">
+    <h2 class="section-heading">Technical Skills</h2>
+    <p class="section-sub">Technologies I work with professionally</p>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">☕</div>
+        <span>Java 8+</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🍃</div>
+        <span>Spring Boot</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🅰️</div>
+        <span>Angular</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🗄️</div>
+        <span>Oracle SQL</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔌</div>
+        <span>REST APIs</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔐</div>
+        <span>JWT / Security</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🐍</div>
+        <span>Python</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">⚛️</div>
+        <span>React / MERN</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <span>HTML / CSS / JS</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🔧</div>
+        <span>Git & GitHub</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🧠</div>
+        <span>Machine Learning</span>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">📡</div>
+        <span>IoT</span>
+      </div>
+    </div>
   </div>
 </section>
 
-<div class="divider"></div>
+<!-- EXPERIENCE SECTION -->
+<section id="experience" class="section section-alt">
+  <div class="container">
+    <h2 class="section-heading">Experience</h2>
+    <p class="section-sub">My professional journey</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">Associate Software Engineer</h3>
+              <p class="timeline-company">
+                <a href="https://www.prodian.net/" target="_blank">Prodian Infotech Pvt. Ltd.</a>
+                &nbsp;·&nbsp; Chennai, TN
+              </p>
+            </div>
+            <span class="timeline-date">Aug 2024 – Present</span>
+          </div>
+          <ul class="timeline-list">
+            <li>Full Stack Developer in the insurance sector, building enterprise-grade web applications.</li>
+            <li>Skilled in Java, Spring Boot, Angular, JSP, and Oracle SQL for end-to-end development.</li>
+            <li>Delivered scalable applications with seamless backend–frontend integration.</li>
+            <li>Contributed ~85% of the overall Lead Management System — frontend, backend, DB, and security.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Angular</span>
+            <span class="tag">Oracle SQL</span>
+            <span class="tag">REST API</span>
+            <span class="tag">JWT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- PROJECTS SECTION -->
-<section id="projects" class="projects-section fade-in" animateOnScroll>
-  <div class="projects-container">
+<section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-heading">Projects</h2>
+    <p class="section-sub">Things I've built that I'm proud of</p>
+    <div class="projects-grid">
 
-    <h2>Projects</h2>
+      <div class="project-card">
+        <div class="project-card-header">
+          <span class="project-type">Professional</span>
+          <h3>Lead Management System</h3>
+          <p class="project-client">Client: Royal Sundaram Group Insurance</p>
+        </div>
+        <ul class="project-points">
+          <li>Designed and developed a secure Lead Management System with OTP-based authentication.</li>
+          <li>Implemented role-based modules (Admin, Manager, Team Lead, Telecaller) for access control.</li>
+          <li>Integrated third-party encrypted APIs for lead submission and audit logging.</li>
+          <li>Built responsive Angular UI with reactive forms, reducing UI defects by <strong>25%</strong>.</li>
+          <li>Contributed ~<strong>85%</strong> of the overall application across all layers.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Angular</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">Oracle SQL</span>
+          <span class="tag">JWT</span>
+          <span class="tag">Encryption</span>
+        </div>
+      </div>
 
-    <!-- Project 1 -->
-    <div class="project-card">
-      <h3>Lead Management System</h3>
-      <p class="project-client">
-        <strong>Client:</strong> Royal Sundaram Group Insurance
-      </p>
+      <div class="project-card">
+        <div class="project-card-header">
+          <span class="project-type">Professional</span>
+          <h3>Survey Application – CMS Integration</h3>
+          <p class="project-client">Client: Enterprise Insurance Platform</p>
+        </div>
+        <ul class="project-points">
+          <li>Designed CMS-driven migration workflow with automated status-based processing.</li>
+          <li>Developed backend schedulers to validate rules and migrate leads into survey modules.</li>
+          <li>Implemented encrypted WhatsApp feedback link delivery one hour post-migration.</li>
+          <li>Added reminder SMS logic after 24 hours to improve response rate.</li>
+          <li>Ensured survey access control by disabling links after submission.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Java</span>
+          <span class="tag">Spring Boot</span>
+          <span class="tag">JSP</span>
+          <span class="tag">Oracle SQL</span>
+          <span class="tag">Schedulers</span>
+        </div>
+      </div>
 
-      <p class="project-tech">
-        <strong>Tech Stack:</strong>
-        Angular, Spring Boot, Java, Oracle SQL, REST APIs, JWT, Encryption
-      </p>
+      <div class="project-card">
+        <div class="project-card-header">
+          <span class="project-type personal">Personal</span>
+          <h3>Schemes Bot</h3>
+          <p class="project-client">Type: Personal Project</p>
+        </div>
+        <ul class="project-points">
+          <li>Developed a chatbot to provide government scheme details and eligibility information.</li>
+          <li>Designed efficient data flow and system architecture.</li>
+          <li>Optimized recommendation logic, reducing latency by <strong>25%</strong>.</li>
+          <li>Improved overall system performance by <strong>10%</strong>.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">MongoDB</span>
+          <span class="tag">Express</span>
+          <span class="tag">React</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </div>
 
-      <ul>
-        <li>Designed and developed a secure Lead Management System with OTP-based authentication.</li>
-        <li>Implemented role-based modules (Admin, Manager, Team Lead, Telecaller) for access control and workflows.</li>
-        <li>Integrated third-party encrypted APIs for lead submission, token generation, and audit logging.</li>
-        <li>Built responsive Angular UI with reactive forms, reducing UI defects by <strong>25%</strong>.</li>
-        <li>Contributed ~<strong>85%</strong> of the overall application across frontend, backend, DB, and security.</li>
-      </ul>
+      <div class="project-card">
+        <div class="project-card-header">
+          <span class="project-type personal">Personal</span>
+          <h3>Smart Glass for the Blind</h3>
+          <p class="project-client">Type: Personal Project</p>
+        </div>
+        <ul class="project-points">
+          <li>Built an accessibility-focused IoT + ML solution for visually impaired users.</li>
+          <li>Implemented real-time text extraction using Tesseract OCR.</li>
+          <li>Achieved <strong>25%</strong> faster processing speed and <strong>20%</strong> latency reduction.</li>
+          <li>Guided complete hardware and software setup on Jetson Nano.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">IoT</span>
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Jetson Nano</span>
+          <span class="tag">Tesseract OCR</span>
+        </div>
+      </div>
+
     </div>
-
-    <!-- Project 2 -->
-    <div class="project-card">
-      <h3>Survey Application – CMS Integration & Automated Feedback</h3>
-      <p class="project-client">
-        <strong>Client:</strong> Enterprise Insurance Platform
-      </p>
-
-      <p class="project-tech">
-        <strong>Tech Stack:</strong>
-        Java, Spring Boot, JSP, HTML, CSS, JavaScript, Oracle SQL, Schedulers, Encryption
-      </p>
-
-      <ul>
-        <li>Designed CMS-driven migration workflow with automated status-based processing.</li>
-        <li>Developed backend schedulers to validate rules and migrate leads into survey modules.</li>
-        <li>Implemented encrypted WhatsApp feedback link delivery one hour post-migration.</li>
-        <li>Added logic for reminder SMS after 24 hours to improve response rate.</li>
-        <li>Ensured survey access control by disabling links after submission.</li>
-      </ul>
-    </div>
-
-    <!-- Project 3 -->
-    <div class="project-card">
-      <h3>Schemes Bot</h3>
-      <p class="project-client">
-        <strong>Type:</strong> Personal Project
-      </p>
-
-      <p class="project-tech">
-        <strong>Tech Stack:</strong> MERN Stack
-      </p>
-
-      <ul>
-        <li>Developed a chatbot to provide government scheme details and eligibility information.</li>
-        <li>Designed efficient data flow and system architecture.</li>
-        <li>Optimized recommendation logic, reducing latency by <strong>25%</strong>.</li>
-        <li>Improved overall system performance by <strong>10%</strong>.</li>
-      </ul>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project-card">
-      <h3>Smart Glass for the Blind</h3>
-      <p class="project-client">
-        <strong>Type:</strong> Personal Project
-      </p>
-
-      <p class="project-tech">
-        <strong>Tech Stack:</strong> IoT, Machine Learning, Jetson Nano, Tesseract OCR
-      </p>
-
-      <ul>
-        <li>Built an accessibility-focused IoT + ML solution for visually impaired users.</li>
-        <li>Implemented real-time text extraction using Tesseract OCR.</li>
-        <li>Achieved <strong>25%</strong> faster processing speed and <strong>20%</strong> latency reduction.</li>
-        <li>Guided complete hardware and software setup on Jetson Nano.</li>
-      </ul>
-    </div>
-
   </div>
 </section>
 
-<div class="divider"></div>
-
-<section id="about" class="about-section fade-in">
-  <div class="about-container floating">
-    <h2>About Me</h2>
-    <p>
-      Hi 👋, I’m <strong>Subarajan A</strong>, a passionate 
-      <span class="highlight">Software Engineer</span> who loves building
-      modern, scalable, and user-friendly applications. 
-    </p>
-    <p>
-      I specialize in <strong>Angular, Java, Python, MERN Stack</strong> and 
-      enjoy working on projects that bring ideas to life through technology. 
-      My interests include AI, ML, IoT, and solving real-world problems with innovative solutions.
-    </p>
-    <p>
-      🚀 Hackathon Winner | 💡 Problem Solver | 👨‍💻 Lifelong Learner
-    </p>
-  </div>
-</section>
-<div class="divider"></div>
-
-<!-- <section id="education" class="education fade-up">
-  <h2 class="section-title">Education</h2>
-  <div class="edu-card glass fade-right">
-    <div class="edu-content">
-      <h3 class="degree">Bachelor of Computer Science</h3>
-      <p class="cgpa">CGPA: <span>8.5</span></p>
-      <p class="year">2020 - 2024</p>
-      <p class="college">
-        <a href="https://www.saranathan.ac.in/" target="_blank">
-          Saranathan College of Engineering, Trichy
-        </a>
-      </p>
+<!-- EDUCATION SECTION -->
+<section id="education" class="section section-alt">
+  <div class="container">
+    <h2 class="section-heading">Education</h2>
+    <p class="section-sub">Academic background</p>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-header">
+            <div>
+              <h3 class="timeline-role">B.E. Computer Science Engineering</h3>
+              <p class="timeline-company">
+                <a href="https://www.saranathan.ac.in/" target="_blank">Saranathan College of Engineering</a>
+                &nbsp;·&nbsp; Trichy, TN
+              </p>
+            </div>
+            <span class="timeline-date">2020 – 2024</span>
+          </div>
+          <ul class="timeline-list">
+            <li>CGPA: <strong>8.48 / 10</strong></li>
+            <li>Relevant subjects: Data Structures, DBMS, Artificial Intelligence, Networks, Software Engineering</li>
+            <li>🏆 Hackathon Winner &nbsp;|&nbsp; 💡 Project Innovator</li>
+          </ul>
+        </div>
+      </div>
     </div>
-  </div>
-</section> -->
-<!-- Existing sections above... -->
-
-
-<section id="contact" class="contact-section fade-in">
-  <div class="contact-container floating">
-    <h2>Contact</h2>
-
-    <div class="contact-info">
-      <p><strong>📞 Phone:</strong> +91 91235 74044</p>
-      <p>
-        <strong>🔗 LinkedIn:</strong> 
-        <a href="https://www.linkedin.com/in/subarajan-anbuselvan" target="_blank">
-          linkedin.com/in/subarajan-anbuselvan
-        </a>
-      </p>
-      <p><strong>✉️ Email:</strong> asubarajan02@gmail.com</p>
-    </div>
-
-    <!-- Contact Form -->
-    <form [formGroup]="contactForm" (ngSubmit)="sendEmail()" class="contact-form">
-      <input type="text" formControlName="name" placeholder="Your Name" required>
-      <input type="email" formControlName="email" placeholder="Your Email" required>
-      <textarea formControlName="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit" class="btn-primary" [disabled]="contactForm.invalid">Send Message</button>
-    </form>
-
   </div>
 </section>
 
+<!-- ABOUT SECTION -->
+<section id="about" class="section">
+  <div class="container">
+    <h2 class="section-heading">About Me</h2>
+    <div class="about-wrapper">
+      <div class="about-text">
+        <p>
+          Hi 👋, I'm <strong>Subarajan A</strong>, a passionate <span class="highlight-text">Software Engineer</span>
+          who loves building modern, scalable, and user-friendly applications.
+        </p>
+        <p>
+          I specialize in <strong>Angular, Java, Python</strong> and the <strong>MERN Stack</strong>. I enjoy working on
+          projects that bring ideas to life through technology. My interests span AI, Machine Learning, IoT, and solving
+          real-world problems with clean, efficient code.
+        </p>
+        <p>🚀 Hackathon Winner &nbsp;|&nbsp; 💡 Problem Solver &nbsp;|&nbsp; 👨‍💻 Lifelong Learner</p>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-number">1+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">4+</span>
+          <span class="stat-label">Projects Built</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">8.48</span>
+          <span class="stat-label">CGPA</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">85%</span>
+          <span class="stat-label">Project Ownership</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-</body>
+<!-- CONTACT SECTION -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <h2 class="section-heading">Get In Touch</h2>
+    <p class="section-sub">Let's build something great together</p>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Contact Details</h3>
+        <div class="contact-item">
+          <span class="contact-icon">📞</span>
+          <div>
+            <p class="contact-label">Phone</p>
+            <p>+91 91235 74044</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">✉️</span>
+          <div>
+            <p class="contact-label">Email</p>
+            <a href="mailto:asubarajan02@gmail.com">asubarajan02&#64;gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <span class="contact-icon">🔗</span>
+          <div>
+            <p class="contact-label">LinkedIn</p>
+            <a href="https://www.linkedin.com/in/subarajan-anbuselvan-a59744314/"
+              target="_blank">subarajan-anbuselvan</a>
+          </div>
+        </div>
+      </div>
+
+      <form [formGroup]="contactForm" (ngSubmit)="sendEmail()" class="contact-form">
+        <h3>Send a Message</h3>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" formControlName="name" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" formControlName="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" formControlName="message" placeholder="What would you like to discuss?" rows="5"
+            required></textarea>
+        </div>
+        <button type="submit" class="btn-primary" [disabled]="contactForm.invalid">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 <strong>Subarajan Anbuselvan</strong> · Java Full Stack Developer · Built with Angular</p>
+</footer>
